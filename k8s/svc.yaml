@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name:  mlappsvc
+spec:
+  selector:
+    name:  mlapp
+  type:  ClusterIP
+  ports:
+  - name:  mlappsvc-port
+    port:  80
+    targetPort:  mlapp-port

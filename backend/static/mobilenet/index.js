@@ -1026,9 +1026,9 @@ const IMAGENET_CLASSES = {
 
 const MOBILENET_MODEL_PATH =
     // tslint:disable-next-line:max-line-length
-    '/staic/mobilenet/model.json'
+    // '/static/mobilenet/model.json'
     // 'http://157.245.148.39:5002/model'
-    //'https://storage.googleapis.com/tfjs-models/tfjs/mobilenet_v1_0.25_224/model.json';
+    'https://storage.googleapis.com/tfjs-models/tfjs/mobilenet_v1_0.25_224/model.json';
 
 
 const IMAGE_SIZE = 224;
